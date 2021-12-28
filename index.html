@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .red-text{
+            color:red
+        }
+
+        h1{
+            font-family: Lobster, monospace;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        .thick-green-border{
+            border-color: green;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 50%;
+        }
+
+        .smaller-image{
+            width: 100px;
+        }
+
+        .silver-background{
+            background-color: silver;
+        }
+    </style>    
+
+
+    <h1>CatPhotoApp</h1>
+    <p>click<a href="#">here</a> to see more cat photos</p>
+    <img class="thick-green-border smaller-image" src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="a photo of a cut cat">
+    <div class="silver-background">
+    <p>Things cats love</p>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointer</li>
+        <li>lasagna</li>
+    </ul> 
+    <p>Things cats hate</p>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>dogs</li>
+    </ol>
+    </div>
+    <iframe title="[ 2005~2021 KOBO ELO ]" aria-label="Interactive line chart" id="datawrapper-chart-hce5g" src="https://datawrapper.dwcdn.net/hce5g/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+    </script>
+    <label><input type="radio" checked name="Indoor-Outdoor"> Indoor</label>
+    <label><input type="radio" name="Indoor-Outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="Personality" checked>Loving</label>
+    <label><input type="checkbox" name="Personality">Lazy</label>
+    <label><input type="checkbox" name="Personality">Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+</html>
